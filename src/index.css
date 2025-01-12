@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes border-run {
+    0% {
+        background-position: 100% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.animate-border {
+    background: linear-gradient(to right, #10b981 0%, #10b981 50%, transparent 50%);
+    background-size: 200% 100%;
+    animation: border-run 1s linear infinite;
+}
+
+section span {
+    display: block;
+    transform: translateX(-100px);
+    opacity: 0;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-200px) rotate(-10deg);
+    }
+
+    80% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(16px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
