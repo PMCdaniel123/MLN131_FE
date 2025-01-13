@@ -1,4 +1,5 @@
 import { MessagesSquare, Trophy, UsersRound } from "lucide-react";
+import CountUp from "react-countup";
 
 function CommunitySection() {
   return (
@@ -14,21 +15,27 @@ function CommunitySection() {
         <div className="grid grid-cols-3 w-full gap-12">
           <div className="col-span-1 p-12 bg-white rounded-lg">
             <div className="flex justify-between items-center text-green-500 font-bold mb-4">
-              <p className="text-6xl">100+</p>
+              <p className="text-6xl">
+                <CountUp end={300} duration={3} />+{" "}
+              </p>
               <UsersRound size={40} />
             </div>
             <p className="text-xl font-semibold">Thành viên</p>
           </div>
           <div className="col-span-1 p-12 bg-white rounded-lg">
             <div className="flex justify-between items-center text-green-500 font-bold mb-4">
-              <p className="text-6xl">10+</p>
+              <p className="text-6xl">
+                <CountUp end={10} duration={3} />+{" "}
+              </p>
               <Trophy size={40} />
             </div>
             <p className="text-xl font-semibold">Thành tựu</p>
           </div>
           <div className="col-span-1 p-12 bg-white rounded-lg">
             <div className="flex justify-between items-center text-green-500 font-bold mb-4">
-              <p className="text-6xl">10+</p>
+              <p className="text-6xl">
+                <CountUp end={10} duration={3} />+{" "}
+              </p>
               <MessagesSquare size={40} />
             </div>
             <p className="text-xl font-semibold">Talkshow</p>

@@ -3,6 +3,7 @@ import CommunitySection from "../components/CommunitySection";
 import ContactSection from "../components/ContactSection";
 import CourseList from "../components/CourseList";
 import HotArticles from "../components/HotArticles";
+import ReviewList from "../components/ReviewList";
 import QuestionList from "../components/QuestionList";
 
 function Home() {
@@ -13,7 +14,7 @@ function Home() {
     restDelta: 0.001,
   });
   return (
-    <div className="mt-32">
+    <div className="mt-28">
       <motion.div
         id="scroll-indicator"
         style={{
@@ -41,6 +42,7 @@ function Home() {
       <QuestionList />
       <CourseList />
       <CommunitySection />
+      <ReviewList />
       <ContactSection />
     </div>
   );
