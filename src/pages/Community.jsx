@@ -1,4 +1,6 @@
 import { useScroll, useSpring, motion } from "motion/react";
+import EventList from "../components/EventList";
+import DebateSection from "../components/DebateSection";
 
 function Community() {
   const { scrollYProgress } = useScroll();
@@ -8,7 +10,7 @@ function Community() {
     restDelta: 0.001,
   });
   return (
-    <div>
+    <div className="mt-28">
       <motion.div
         id="scroll-indicator"
         style={{
@@ -23,7 +25,16 @@ function Community() {
         }}
         className="z-50"
       />
-      <div>Community</div>
+      <div>
+        <EventList />
+        <div className="mt-20">
+          <h1 className="text-center text-4xl font-bold mb-8 text-green-500">
+            Các chủ đề tranh luận
+          </h1>
+          <DebateSection title="Gia đình hạt nhân" />
+          <DebateSection title="Gia đình truyền thống" />
+        </div>
+      </div>
     </div>
   );
 }

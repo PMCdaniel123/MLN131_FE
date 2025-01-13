@@ -47,6 +47,7 @@ const ContactSection = () => {
                 value={formData.name}
                 onChange={handleChange}
                 required
+                placeholder="Nhập tên của bạn"
                 className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
               />
             </div>
@@ -65,6 +66,7 @@ const ContactSection = () => {
                 value={formData.email}
                 onChange={handleChange}
                 required
+                placeholder="Nhập email của bạn"
                 className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
               />
             </div>
@@ -83,6 +85,7 @@ const ContactSection = () => {
                 onChange={handleChange}
                 required
                 rows="4"
+                placeholder="Nhập nội dung của bạn"
                 className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
               ></textarea>
             </div>

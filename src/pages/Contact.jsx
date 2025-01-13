@@ -9,7 +9,7 @@ function Contact() {
     restDelta: 0.001,
   });
   return (
-    <div className="mt-32">
+    <div className="mt-28">
       <motion.div
         id="scroll-indicator"
         style={{

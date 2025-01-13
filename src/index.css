@@ -30,7 +30,7 @@ section span {
     }
 
     80% {
-        transform: translateY(10px);
+        transform: translateY(6px);
     }
 
     100% {
@@ -38,7 +38,7 @@ section span {
     }
 
     50% {
-        transform: translateY(16px);
+        transform: translateY(24px);
     }
 
     100% {
