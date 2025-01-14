@@ -23,7 +23,7 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
-      <MarketData />
+      {/* <MarketData /> */}
       <Footer />
     </div>
   );
