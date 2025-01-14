@@ -1,4 +1,7 @@
 import { useScroll, useSpring, motion } from "motion/react";
+import ProfessorList from "../components/ProfessorList";
+import CourseList from "../components/CourseList";
+import BookList from "../components/BookList";
 
 function Service() {
   const { scrollYProgress } = useScroll();
@@ -8,7 +11,7 @@ function Service() {
     restDelta: 0.001,
   });
   return (
-    <div>
+    <div className="mt-28">
       <motion.div
         id="scroll-indicator"
         style={{
@@ -23,7 +26,11 @@ function Service() {
         }}
         className="z-50"
       />
-      <div>Service</div>
+      <div>
+        <ProfessorList />
+        <CourseList />
+        <BookList />
+      </div>
     </div>
   );
 }

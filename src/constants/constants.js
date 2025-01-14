@@ -136,3 +136,61 @@ export const eventsList = [
       "Lorem ipsum dolor sit amet, consectetur de adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
   },
 ];
+
+export const professorsList = [
+  {
+    avatar:
+      "/people/studio-shot-beautiful-happy-retired-caucasian-female-with-pixie-hairdo-crossing-arms-her-chest-having-confident-look-smiling-broadly.jpg",
+    name: "Lê Xuân Nhi",
+    role: "Vai trò 1",
+    experience: ["Chuyên ngành 1", "Chuyên ngành 2", "Chuyên ngành 3"],
+    phone: "0123456789",
+  },
+  {
+    avatar:
+      "/people/happy-african-american-professional-manager-smiling-looking-camera-headshot-portrait.jpg",
+    name: "Đặng Nam Bình",
+    role: "Vai trò 2",
+    experience: ["Chuyên ngành 4", "Chuyên ngành 5", "Chuyên ngành 6"],
+    phone: "0123456789",
+  },
+  {
+    avatar:
+      "/people/project-leder-with-disabilities-looking-front-sitting-immobilized-wheelchair-business-office-room.jpg",
+    name: "Nguyễn Hải Nam",
+    role: "Vai trò 3",
+    experience: ["Chuyên ngành 7", "Chuyên ngành 8", "Chuyên ngành 9"],
+    phone: "0123456789",
+  },
+];
+
+export const booksList = [
+  {
+    image: "/portfolio/severin-candrian-nn3uIZqmUtE-unsplash.jpeg",
+    title: "Book 1",
+    author: "Author 1",
+    price: "100,000",
+    hot: true,
+  },
+  {
+    image: "/portfolio/thought-catalog-gv-T-OjLe4c-unsplash.jpeg",
+    title: "Book 2",
+    author: "Author 2",
+    price: "100,000",
+    hot: true,
+  },
+  {
+    image: "/portfolio/tyler-nix-Y1drF0Y3Oe0-unsplash.jpeg",
+    title: "Book 3",
+    author: "Author 3",
+    price: "100,000",
+    hot: true,
+  },
+  {
+    image: "elena-rabkina-eVVzwsNhNf4-unsplash.jpg",
+    title: "Book 4",
+    author: "Author 4",
+    price: "100,000",
+    hot: true,
+  },
+];
