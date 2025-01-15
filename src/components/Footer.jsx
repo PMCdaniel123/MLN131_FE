@@ -1,16 +1,24 @@
 import { Facebook, Twitter, Linkedin, Mail, Phone } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { navLinks } from "../constants/constants";
 
 const Footer = () => {
+  const navigate = useNavigate();
+
   return (
-    <footer className="bg-white border-t border-gray-200 mt-20">
+    <footer className="bg-gray-800 border-t border-gray-200 mt-20">
       <div className="container mx-auto px-12 py-6">
         <div className="flex justify-between items-center">
-          <Link to="/" className="text-2xl font-bold text-green-600">
-            Đại đại đi
-          </Link>
-          <nav className="space-x-6 text-gray-500 text-md flex">
+          <img
+            src="/logo_ngang.png"
+            alt="logo"
+            className="w-40 h-20 object-cover cursor-pointer"
+            onClick={() => {
+              navigate("/");
+              window.scrollTo(0, 0);
+            }}
+          />
+          <nav className="space-x-6 text-gray-300 text-md flex">
             {navLinks.map((link) => (
               <li
                 key={link.id}
@@ -29,7 +37,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-200 my-4"></div>
 
-        <div className="flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
+        <div className="flex flex-col md:flex-row justify-between items-center text-gray-300 text-sm">
           <p className="mb-4 md:mb-0">
             © Copyright. Designed And Developed By Đại đại đi
           </p>
@@ -48,7 +56,7 @@ const Footer = () => {
                 to="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-500 hover:text-green-600 transition"
+                className="text-gray-300 hover:text-green-600 transition"
               >
                 <Facebook size={20} />
               </Link>
@@ -56,7 +64,7 @@ const Footer = () => {
                 to="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-500 hover:text-green-600 transition"
+                className="text-gray-300 hover:text-green-600 transition"
               >
                 <Twitter size={20} />
               </Link>
@@ -64,7 +72,7 @@ const Footer = () => {
                 to="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-500 hover:text-green-600 transition"
+                className="text-gray-300 hover:text-green-600 transition"
               >
                 <Linkedin size={20} />
               </Link>
@@ -72,7 +80,7 @@ const Footer = () => {
                 to="mailto:example@example.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-500 hover:text-green-600 transition"
+                className="text-gray-300 hover:text-green-600 transition"
               >
                 <Mail size={20} />
               </Link>
