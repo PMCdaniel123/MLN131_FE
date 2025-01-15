@@ -8,14 +8,13 @@ import Community from "./pages/Community";
 import Service from "./pages/Service";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
-// import MarketData from "./components/MarketData";
 import Chat from "./pages/Chat";
 
 export default function App() {
   return (
     <div>
       <Header />
-      <div className="container mx-auto px-12">
+      <div className="container mx-auto px-6">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
@@ -27,7 +26,6 @@ export default function App() {
           <Route path="/chat" element={<Chat />} />
         </Routes>
       </div>
-      {/* <MarketData /> */}
       <Footer />
     </div>
   );

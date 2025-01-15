@@ -7,7 +7,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-gray-800 border-t border-gray-200 mt-20">
-      <div className="container mx-auto px-12 py-6">
+      <div className="container mx-auto px-6 py-6">
         <div className="flex justify-between items-center">
           <img
             src="/logo_ngang.png"
