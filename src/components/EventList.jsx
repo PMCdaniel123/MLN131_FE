@@ -3,7 +3,7 @@ import Event from "./Event";
 
 function EventList() {
   return (
-    <div>
+    <div className="mt-40">
       <h1 className="text-center text-4xl font-bold mb-8 text-green-500">
         Các sự kiện sắp diễn ra
       </h1>

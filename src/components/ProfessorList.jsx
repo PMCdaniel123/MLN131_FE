@@ -3,7 +3,7 @@ import Professor from "./Professor";
 
 function ProfessorList() {
   return (
-    <div>
+    <div className="mt-40">
       <h1 className="text-center text-4xl font-bold mb-8 text-green-500">
         Tư vấn với chuyên gia
       </h1>
