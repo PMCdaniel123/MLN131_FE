@@ -5,6 +5,7 @@ export const navLinks = [
   { id: "community", title: "Cộng đồng" },
   { id: "service", title: "Dịch vụ" },
   { id: "contact", title: "Liên hệ" },
+  { id: "chat", title: "Chat cùng AI" },
 ];
 
 export const reviewsList = [

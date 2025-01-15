@@ -25,8 +25,8 @@ const ContactSection = () => {
     <section className="bg-gray-50 py-10 mt-20">
       <div className="container mx-auto px-6 flex items-center justify-between gap-16">
         <div className=" flex-1">
-          <h1 className="text-center text-4xl font-bold mb-8 text-green-500">
-            Chúng tôi có thể giúp gì cho bạn?
+          <h1 className="text-center text-3xl font-bold mb-8 text-green-500">
+            Liên hệ với chúng tôi
           </h1>
           <GoogleMap />
         </div>
