@@ -43,61 +43,79 @@ function AboutUs() {
 
             <div>
               <h3 className="text-2xl font-semibold text-green-700 mb-4">
-                Who We Are
+                Chúng tôi là ai?
               </h3>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Welcome to [Your Company Name], where innovation meets
-                excellence. We are dedicated to providing top-notch services and
-                solutions to our valued customers, ensuring a seamless
-                experience every step of the way.
+                Chào mừng bạn đến với{" "}
+                <p className="font-semibold text-green-700 inline">
+                  {" "}
+                  Roots & Wings
+                </p>
+                , nơi hôn nhân và gia đình luôn được đặt lên hàng đầu. Chúng tôi
+                cam kết mang đến những giải pháp, kiến thức và sự hỗ trợ tốt
+                nhất giúp các cặp đôi, gia đình xây dựng một mối quan hệ hạnh
+                phúc và bền vững.
               </p>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Our mission is to drive success and growth for our clients
-                through cutting-edge technology and exceptional customer
-                service. With a team of passionate experts, we strive to exceed
-                expectations and deliver outstanding results.
+                Sứ mệnh của chúng tôi là đồng hành cùng các gia đình trên hành
+                trình yêu thương, thấu hiểu và phát triển. Với đội ngũ chuyên
+                gia giàu kinh nghiệm, chúng tôi cung cấp những lời khuyên thực
+                tế, các chương trình hỗ trợ và nội dung giá trị giúp bạn vượt
+                qua mọi thử thách trong hôn nhân và gia đình.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Join us on this exciting journey as we continue to create a
-                meaningful impact and set new standards in the industry.
+                Hãy cùng chúng tôi tạo dựng những giá trị bền vững, xây dựng một
+                tổ ấm hạnh phúc và lan tỏa tình yêu thương! ❤️
               </p>
             </div>
           </div>
 
           <div className="mt-16">
             <h1 className="text-center text-4xl font-bold mb-8 text-green-500">
-              Our Mission, Vision, and Values
+              💖 Sứ Mệnh, Tầm Nhìn và Giá Trị Cốt Lõi
             </h1>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
               <div className="bg-white p-6 rounded-lg shadow-lg">
                 <h4 className="text-xl font-semibold text-green-700 mb-4">
-                  Our Mission
+                  ✨ Sứ Mệnh
                 </h4>
                 <p className="text-gray-600 leading-relaxed">
-                  To empower individuals and businesses by providing exceptional
-                  solutions and fostering innovation.
+                  Mang đến những kiến thức, công cụ và sự hỗ trợ tốt nhất để
+                  giúp các cặp đôi và gia đình xây dựng mối quan hệ vững chắc,
+                  hạnh phúc và tràn đầy yêu thương.
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-lg">
                 <h4 className="text-xl font-semibold text-green-700 mb-4">
-                  Our Vision
+                  🔭 Tầm Nhìn
                 </h4>
                 <p className="text-gray-600 leading-relaxed">
-                  To be the leading provider of innovative solutions that
-                  inspire and drive global progress.
+                  Trở thành nền tảng hàng đầu về hôn nhân và gia đình, nơi mọi
+                  người có thể tìm thấy lời khuyên đáng tin cậy, sự hỗ trợ
+                  chuyên sâu và cộng đồng yêu thương cùng chia sẻ.
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-lg">
                 <h4 className="text-xl font-semibold text-green-700 mb-4">
-                  Our Values
+                  💎 Giá Trị Cốt Lõi
                 </h4>
-                <p className="text-gray-600 leading-relaxed">
-                  Integrity, excellence, and a customer-first mindset form the
-                  foundation of everything we do.
-                </p>
+                <ul className="list-disc list-inside">
+                  <li className="text-gray-600 leading-relaxed">
+                    <b>Tình Yêu & Sự Thấu Hiểu</b> – Mọi mối quan hệ đều bắt
+                    nguồn từ sự yêu thương và chia sẻ.
+                  </li>
+                  <li className="text-gray-600 leading-relaxed">
+                    <b>Sự Tin Cậy</b> – Cung cấp nội dung và dịch vụ uy tín,
+                    thực tế.
+                  </li>
+                  <li className="text-gray-600 leading-relaxed">
+                    <b>Đồng Hành & Hỗ Trợ</b> – Chúng tôi luôn bên bạn trên hành
+                    trình xây dựng hạnh phúc gia đình.
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

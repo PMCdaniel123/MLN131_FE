@@ -32,7 +32,7 @@ const ReviewList = () => {
               <div className="bg-white rounded-lg shadow-lg flex flex-col p-6">
                 <div className="flex flex-row gap-4 items-center justify-start mb-6 relative">
                   <img
-                    src={`/people/working-business-lady.jpg`}
+                    src={`logo_tron.png`}
                     alt={review.name}
                     className="rounded-full w-16 h-16"
                   />

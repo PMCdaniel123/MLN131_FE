@@ -6,7 +6,7 @@ function Course({ index, image, title, author, date, description }) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: false });
   return (
-    <section ref={ref}>
+    <section ref={ref} className="h-full flex">
       <span
         style={{
           opacity: isInView ? 1 : 0,
@@ -19,18 +19,18 @@ function Course({ index, image, title, author, date, description }) {
       >
         <div
           key={index}
-          className="bg-white rounded-lg shadow-lg overflow-hidden group relative cursor-pointer hover:shadow-2xl hover:scale-105 transition duration-300 ease-in-out"
+          className="bg-white h-full rounded-lg shadow-lg overflow-hidden group relative cursor-pointer hover:shadow-2xl hover:scale-105 transition duration-300 ease-in-out"
         >
           <img src={image} alt={title} className="w-full h-56 object-cover" />
-          <div className="p-5">
+          <div className="p-5 flex flex-col">
             <h2 className="text-lg font-semibold text-gray-800 hover:text-red-500 transition duration-300">
               {title}
             </h2>
-            <p className="text-sm text-gray-500 my-2">
-              Posted By <span className="text-blue-500">{author}</span> &bull;{" "}
-              {date}
-            </p>
-            <p className="text-gray-600 text-sm">{description}</p>
+            <p className="text-sm text-gray-800 my-2">{date}</p>
+            <div className="text-lg my-2 flex items-center">
+              <p className="text-blue-500">{author}</p>
+            </div>
+            <p className="text-gray-500 text-sm italic">{description}</p>
           </div>
           <div className="absolute inset-0 bg-gradient-to-b from-green-300 via-transparent to-transparent opacity-0 group-hover:opacity-80 transition-opacity duration-300 ease-in-out rounded-lg"></div>
         </div>

@@ -1,6 +1,7 @@
 import { useScroll, useSpring, motion } from "motion/react";
 import EventList from "../components/EventList";
 import DebateSection from "../components/DebateSection";
+import DebateSection1 from "../components/DebateSection1";
 
 function Community() {
   const { scrollYProgress } = useScroll();
@@ -33,7 +34,7 @@ function Community() {
             Các chủ đề tranh luận
           </h1>
           <DebateSection title="Gia đình hạt nhân" />
-          <DebateSection title="Gia đình truyền thống" />
+          <DebateSection1 title="Gia đình truyền thống" />
         </div>
       </div>
     </div>

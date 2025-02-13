@@ -8,7 +8,7 @@ function Event({ image, title, date, hot, description }) {
         <img
           src={image}
           alt={title}
-          className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300 ease-linear"
+          className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300 ease-linear"
         />
         {hot && (
           <div className="absolute top-4 left-4 bg-red-500 text-white px-4 py-2 text-sm rounded flex items-center gap-1">
