@@ -5,6 +5,10 @@ import CourseList from "../components/CourseList";
 import HotArticles from "../components/HotArticles";
 import ReviewList from "../components/ReviewList";
 import QuestionList from "../components/QuestionList";
+import { useDispatch } from "react-redux";
+import { useEffect } from "react";
+import { addChat } from "../stores/chatSlice";
+import ChatDetail from "../components/ChatDetail";
 
 function Home() {
   const { scrollYProgress } = useScroll();
@@ -13,6 +17,12 @@ function Home() {
     damping: 30,
     restDelta: 0.001,
   });
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(addChat());
+  }, [dispatch]);
+
   return (
     <div className="mt-28">
       <motion.div
@@ -29,14 +39,8 @@ function Home() {
         }}
         className="z-50"
       />
-      <div>
-        <video
-          src="/videos/814dc43e870597176cad645798825c03.mp4"
-          autoPlay
-          loop
-          muted
-          className="w-full h-[500px] object-cover"
-        ></video>
+      <div className="mt-28 bg-gray-800 rounded-xl">
+        <ChatDetail />
       </div>
       <HotArticles />
       <QuestionList />

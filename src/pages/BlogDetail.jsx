@@ -1,12 +1,16 @@
-import React from "react";
 import { useParams, Link } from "react-router-dom";
+import Blog1 from "../components/Blog1";
+import Blog2 from "../components/Blog2";
+import Blog3 from "../components/Blog3";
+import Blog4 from "../components/Blog4";
+import Blog5 from "../components/Blog5";
 
 function BlogDetail() {
-  // Fake data for demo (this should ideally come from a database or API)
   const posts = [
     {
       id: 1,
-      title: "Boost your conversion rate",
+      title:
+        "Sự chuyển biến cơ bản của gia đình Việt Nam trong bối cảnh hiện nay",
       description:
         "Detailed guide on how to boost your conversion rate with proven strategies and expert advice.",
       content:
@@ -137,72 +141,75 @@ function BlogDetail() {
   }
 
   return (
-    <div className="bg-white py-16 sm:py-24">
-      <div className="max-w-4xl mx-auto px-6 lg:px-8">
-        <article>
-          {/* Featured Image */}
-          <img
-            src={post.imageUrl}
-            alt={post.title}
-            className="w-full h-72 object-cover rounded-lg mb-8"
-          />
+    // <div className="bg-white py-16 sm:py-24">
+    //   <div className="max-w-4xl mx-auto px-6 lg:px-8">
+    //     <article>
+    //       <img
+    //         src={post.imageUrl}
+    //         alt={post.title}
+    //         className="w-full h-72 object-cover rounded-lg mb-8"
+    //       />
 
-          {/* Article Header */}
-          <header className="mb-8">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-              {post.title}
-            </h1>
-            <p className="mt-4 text-lg text-gray-600">{post.description}</p>
-            <div className="mt-4 flex items-center space-x-4">
-              <img
-                alt={post.author.name}
-                src={post.author.imageUrl}
-                className="h-12 w-12 rounded-full"
-              />
-              <div>
-                <p className="text-sm font-medium text-gray-900">
-                  <a href={post.author.href}>{post.author.name}</a>
-                </p>
-                <p className="text-sm text-gray-500">{post.author.role}</p>
-              </div>
-              <time
-                dateTime={post.datetime}
-                className="ml-auto text-sm text-gray-500"
-              >
-                {post.date}
-              </time>
-            </div>
-          </header>
+    //       <header className="mb-8">
+    //         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+    //           {post.title}
+    //         </h1>
+    //         <p className="mt-4 text-lg text-gray-600">{post.description}</p>
+    //         <div className="mt-4 flex items-center space-x-4">
+    //           <img
+    //             alt={post.author.name}
+    //             src={post.author.imageUrl}
+    //             className="h-12 w-12 rounded-full"
+    //           />
+    //           <div>
+    //             <p className="text-sm font-medium text-gray-900">
+    //               <a href={post.author.href}>{post.author.name}</a>
+    //             </p>
+    //             <p className="text-sm text-gray-500">{post.author.role}</p>
+    //           </div>
+    //           <time
+    //             dateTime={post.datetime}
+    //             className="ml-auto text-sm text-gray-500"
+    //           >
+    //             {post.date}
+    //           </time>
+    //         </div>
+    //       </header>
 
-          {/* Article Content */}
-          <div className="prose prose-lg text-gray-700 leading-relaxed">
-            <p>{post.content}</p>
-            <p>
-              Additional insights: Start implementing these strategies today and
-              watch your business grow!
-            </p>
-            <ul>
-              <li>Understand your audience.</li>
-              <li>Set measurable goals.</li>
-              <li>Optimize based on data.</li>
-            </ul>
-            <blockquote>
-              "Success is not final, failure is not fatal: it is the courage to
-              continue that counts."
-            </blockquote>
-          </div>
+    //       <div className="prose prose-lg text-gray-700 leading-relaxed">
+    //         <p>{post.content}</p>
+    //         <p>
+    //           Additional insights: Start implementing these strategies today and
+    //           watch your business grow!
+    //         </p>
+    //         <ul>
+    //           <li>Understand your audience.</li>
+    //           <li>Set measurable goals.</li>
+    //           <li>Optimize based on data.</li>
+    //         </ul>
+    //         <blockquote>
+    //           &quot;Success is not final, failure is not fatal: it is the
+    //           courage to continue that counts.&quot;
+    //         </blockquote>
+    //       </div>
 
-          {/* Footer */}
-          <footer className="mt-12 border-t border-gray-200 pt-6">
-            <Link
-              to="/blog"
-              className="inline-flex items-center text-sm font-medium text-blue-600 hover:underline"
-            >
-              ← Back to Blog
-            </Link>
-          </footer>
-        </article>
-      </div>
+    //       <footer className="mt-12 border-t border-gray-200 pt-6">
+    //         <Link
+    //           to="/blog"
+    //           className="inline-flex items-center text-sm font-medium text-blue-600 hover:underline"
+    //         >
+    //           ← Quay trở lại Blog
+    //         </Link>
+    //       </footer>
+    //     </article>
+    //   </div>
+    // </div>
+    <div>
+      {id === "1" ? <Blog1 /> : null}
+      {id === "2" ? <Blog2 /> : null}
+      {id === "3" ? <Blog3 /> : null}
+      {id === "4" ? <Blog4 /> : null}
+      {id === "5" ? <Blog5 /> : null}
     </div>
   );
 }
