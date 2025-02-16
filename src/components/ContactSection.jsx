@@ -23,12 +23,14 @@ const ContactSection = () => {
 
   return (
     <section className="bg-gray-50 py-10 mt-20">
-      <div className="container mx-auto px-6 flex items-center justify-between gap-16">
-        <div className=" flex-1">
+      <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-8 md:gap-16">
+        <div className=" flex-1 flex flex-col items-center justify-center w-full">
           <h1 className="text-center text-3xl font-bold mb-8 text-green-500">
             Liên hệ với chúng tôi
           </h1>
-          <GoogleMap />
+          <div className="w-full">
+            <GoogleMap />
+          </div>
         </div>
 
         <div className="mx-auto bg-white p-8 rounded-lg shadow-lg w-full flex-1">

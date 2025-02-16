@@ -82,26 +82,6 @@ const ChatDetail = () => {
                 Hôm nay chúng tôi có thể giúp gì cho bạn?
               </p>
             </div>
-            <div className="flex items-center space-x-3 justify-between">
-              <div className="w-[200px] h-[200px] bg-gray-700 flex items-center justify-center rounded-lg">
-                <p>Hôn nhân và Gia đình</p>
-              </div>
-              <div className="w-[200px] h-[200px] bg-gray-700 flex flex-col items-center justify-center rounded-lg">
-                <p>Gia đình hạt nhân</p>
-                <p>Gia đình truyền thống</p>
-              </div>
-              <div className="w-[200px] h-[200px] bg-gray-700 flex items-center justify-center rounded-lg">
-                <p>Các giá trị truyền thống</p>
-              </div>
-              <div className="w-[200px] h-[200px] bg-gray-700 flex items-center justify-center rounded-lg flex-col">
-                <p>Tạo hình ảnh với AI</p>
-                <img
-                  src="/logo_tron.png"
-                  alt="temp"
-                  className="w-[150px] h-[150px]"
-                />
-              </div>
-            </div>
           </div>
         )}
         <div className="flex items-center w-full justify-between gap-4">

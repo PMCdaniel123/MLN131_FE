@@ -17,7 +17,7 @@ function Blog() {
   };
 
   return (
-    <div>
+    <div className="mt-28">
       <motion.div
         id="scroll-indicator"
         style={{
@@ -33,7 +33,7 @@ function Blog() {
         className="z-50"
       />
 
-      <div className="bg-white py-24 sm:py-32">
+      <div className="bg-white py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h1 className="text-center text-4xl font-bold mb-8 text-green-500">
             Các bài viết

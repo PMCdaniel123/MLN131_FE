@@ -28,8 +28,8 @@ const ReviewList = () => {
           }}
         >
           {reviewsList.map((review, index) => (
-            <div key={index} className="w-full flex-shrink-0 p-5">
-              <div className="bg-white rounded-lg shadow-lg flex flex-col p-6">
+            <div key={index} className="w-full flex-shrink-0">
+              <div className="bg-white rounded-lg border flex flex-col p-6">
                 <div className="flex flex-row gap-4 items-center justify-start mb-6 relative">
                   <img
                     src={`logo_tron.png`}
@@ -49,7 +49,7 @@ const ReviewList = () => {
                       ))}
                     </div>
                   </div>
-                  <div className="absolute top-0 right-0">
+                  <div className="absolute top-0 right-0 md:block hidden">
                     <MessageSquare size={40} className="text-green-500" />
                   </div>
                 </div>

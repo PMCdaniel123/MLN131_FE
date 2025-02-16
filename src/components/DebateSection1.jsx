@@ -13,7 +13,7 @@ function DebateSection1({ title }) {
       </h1>
       <div className="container mx-auto bg-gray-50 p-10">
         <div
-          className="inline-flex flex-row items-center float-right gap-2 text-green-700 font-semibold mb-4 cursor-pointer hover:text-green-500"
+          className="flex flex-row items-center justify-end gap-2 text-green-700 font-semibold mb-4 cursor-pointer hover:text-green-500"
           onClick={() => setIsCreate(!isCreate)}
         >
           <CirclePlus />
