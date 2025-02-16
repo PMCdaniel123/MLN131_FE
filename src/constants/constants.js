@@ -116,6 +116,11 @@ export const teamData = [
 
 export const questionsList = [
   {
+    question: "Gia đình là gì?",
+    answer:
+      "Gia đình là một cộng đồng người đặc biệt, có vai trò quyết định đến sự tồn tại và phát triển của xã hội. C. Mác và Ph. Ăngghen, khi đề cập đến gia đình đã cho rằng: 'Quan hệ thứ ba tham dự ngay từ đầu vào quá trình phát triển lịch sử: hàng ngày tái tạo ra đời sống của bản thân mình, con người bắt đầu tạo ra những người khác, sinh sôi, nảy nở - đó là quan hệ giữa chồng và vợ, cha mẹ và con cái, đó là gia đình'. Cơ sở hình thành gia đình là hai mối quan hệ cơ bản, quan hệ hôn nhân (vợ và chồng) và quan hệ huyết thống (cha mẹ và con cái...). Những mối quan hệ này tồn tại trong sự gắn bó, liên kết, ràng buộc và phụ thuộc lẫn nhau, bởi nghĩa vụ, quyền lợi và trách nhiệm của mỗi người, được quy định bằng pháp lý hoặc đạo lý.",
+  },
+  {
     question: "Gia đình hạt nhân là gì?",
     answer:
       "Gia đình hạt nhân là một mô hình gia đình bao gồm cha mẹ và con cái sống chung trong một hộ gia đình riêng biệt, không có sự chung sống của các thế hệ khác như ông bà hay họ hàng.",
@@ -420,6 +425,32 @@ export const posts = [
     description:
       "Trong bối cảnh phát triển kinh tế và hội nhập quốc tế, gia đình Việt Nam đang có những biến đổi rõ rệt, đặc biệt là trong mô hình gia đình hạt nhân (gồm cha mẹ và con cái). Sự thay đổi này tác động trực tiếp đến các chức năng truyền thống của gia đình, từ giáo dục con cái, chăm sóc người già, đến phân công lao động trong gia đình.",
     date: "Ngày 13 tháng 1 năm 2025",
+    category: { title: "Gia đình" },
+    author: {
+      name: "Phạm Mạnh Cường",
+      role: "Sinh viên",
+      imageUrl: "/people/cuong.jpg",
+    },
+  },
+  {
+    id: 6,
+    title: "Khái niệm, vị trí và chức năng của gia đình",
+    description:
+      "Gia đình là một cộng đồng người đặc biệt, có vai trò quyết định đến sự tồn tại và phát triển của xã hội. C.Mác và Ph. Ăngghen, khi đề cập đến gia đình đã cho rằng: “Quan hệ thứ ba tham dự ngay từ đầu vào quá trình phát triển lịch sử: hàng ngày tái tạo ra đời sống của bản thân mình, con người bắt đầu tạo ra những người khác, sinh sôi, nảy nở - đó là quan hệ giữa chồng và vợ, cha mẹ và con cái, đó là gia đình”.",
+    date: "Ngày 17 tháng 2 năm 2025",
+    category: { title: "Gia đình" },
+    author: {
+      name: "Phạm Mạnh Cường",
+      role: "Sinh viên",
+      imageUrl: "/people/cuong.jpg",
+    },
+  },
+  {
+    id: 7,
+    title: "Cơ sở xây dựng gia đình trong thời kì quá độ lên chủ nghĩa xã hội",
+    description:
+      "Cơ sở kinh tế - xã hội để xây dựng gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội là sự phát triển của lực lượng sản xuất và tương ứng trình độ của lực lượng sản xuất là quan hệ sản xuất mới, xã hội chủ nghĩa. Cốt lõi của quan hệ sản xuất mới ấy là chế độ sở hữu xã hội chủ nghĩa đối với tư liệu sản xuất từng bước hình thành và củng cố thay thế chế độ sở hữu tư nhân về tư liệu sản xuất.",
+    date: "Ngày 17 tháng 2 năm 2025",
     category: { title: "Gia đình" },
     author: {
       name: "Phạm Mạnh Cường",

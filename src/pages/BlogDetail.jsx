@@ -4,6 +4,8 @@ import Blog2 from "../components/Blog2";
 import Blog3 from "../components/Blog3";
 import Blog4 from "../components/Blog4";
 import Blog5 from "../components/Blog5";
+import Blog6 from "../components/Blog6";
+import Blog7 from "../components/Blog7";
 
 function BlogDetail() {
   const posts = [
@@ -147,6 +149,8 @@ function BlogDetail() {
       {id === "3" ? <Blog3 /> : null}
       {id === "4" ? <Blog4 /> : null}
       {id === "5" ? <Blog5 /> : null}
+      {id === "6" ? <Blog6 /> : null}
+      {id === "7" ? <Blog7 /> : null}
     </div>
   );
 }
