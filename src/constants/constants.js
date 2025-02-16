@@ -93,20 +93,17 @@ export const courses = [
 
 export const teamData = [
   {
-    avatar:
-      "/people/studio-shot-beautiful-happy-retired-caucasian-female-with-pixie-hairdo-crossing-arms-her-chest-having-confident-look-smiling-broadly.jpg",
+    avatar: "/people/nhi.jpg",
     name: "Lê Xuân Nhi",
     role: "Nhóm trưởng",
   },
   {
-    avatar:
-      "/people/happy-african-american-professional-manager-smiling-looking-camera-headshot-portrait.jpg",
+    avatar: "/people/binh.jpg",
     name: "Đặng Nam Bình",
     role: "Thành viên",
   },
   {
-    avatar:
-      "/people/project-leder-with-disabilities-looking-front-sitting-immobilized-wheelchair-business-office-room.jpg",
+    avatar: "/people/nam.jpg",
     name: "Nguyễn Hải Nam",
     role: "Thành viên",
   },
@@ -233,38 +230,92 @@ export const eventsList = [
 
 export const professorsList = [
   {
-    avatar:
-      "/people/studio-shot-beautiful-happy-retired-caucasian-female-with-pixie-hairdo-crossing-arms-her-chest-having-confident-look-smiling-broadly.jpg",
-    name: "Lê Xuân Nhi",
-    role: "Chuyên gia Tư vấn Hôn nhân & Gia đình",
+    avatar: "/people/le-thi-hoa.png",
+    name: "Lê Thị Hoa",
+    role: "Phó Giáo sư, Tiến sĩ",
     experience: [
-      "Hơn 10 năm kinh nghiệm tư vấn tâm lý hôn nhân",
-      "Chuyên gia trong lĩnh vực giải quyết xung đột gia đình",
-      "Diễn giả tại nhiều hội thảo về gia đình và trẻ em",
+      "Cố vấn chuyên môn của Viện Tâm lí Sunnycare",
+      "Từng là Giảng viên Khoa Tâm lý học, Trường Đại học Khoa học Xã hội và Nhân văn TPHCM.",
+      "Nguyên là Hiệu trưởng trường Cán bộ Quản lý Giáo dục và Đào tạo Trung ương 2",
+      "Cố vấn cấp cao tại Viện Sư phạm Kỹ Thuật TPHCM",
+      "Giảng viên thỉnh giảng Đại học Quốc gia TPHCM, Đại học Sư phạm Kỹ thuật, Đại học Huế, Đại học Đà Nẵng",
+      "Tốt nghiệp tiến sĩ tâm lí học từ năm 1988 tại Viện Hàn lâm Khoa học Moscow",
     ],
     phone: "0123456789",
   },
   {
-    avatar:
-      "/people/happy-african-american-professional-manager-smiling-looking-camera-headshot-portrait.jpg",
-    name: "Đặng Nam Bình",
-    role: "Chuyên gia Tâm lý Trẻ em & Thanh thiếu niên",
+    avatar: "/people/nguyen-hai-anh.jpg",
+    name: "Nguyễn Hải Anh",
+    role: "Chuyên gia tham vấn tâm lý",
     experience: [
-      "Tư vấn tâm lý trẻ em và phương pháp giáo dục tích cực",
-      "Hơn 10 năm nghiên cứu về phát triển tâm lý thanh thiếu niên",
-      "Tác giả nhiều cuốn sách về tâm lý trẻ em",
+      "Chuyên gia tham vấn tâm lý, Trung tâm trị liệu, tham vấn tư vấn tâm lý MindCare (2020 - nay)",
+      "Tham vấn viên tâm lý, Psy Space (2020 - nay)",
+      "Điều phối Hội thảo chủ đề Tiếp cận thông tin về Sức khỏe sinh sản, Sức khỏe tình dục do Trung tâm Sáng kiến Sức khỏe và Dân số CCIHP tổ chức với sự tham gia của các nhóm LGBTQ, người khuyết tật, sex worker, người có HIV (2019)",
+      "Quản lý ca tại dự án Tham vấn Tâm lý miễn phí dành cho vị thành niên và người trẻ “Một giờ lắng nghe” (2019)",
+      "Tham vấn viên tâm lý, PsyHub Hà Nội (2018 - 2019)",
+      "Điều phối dự án liên quan tới sức khỏe kinh nguyệt và các vấn đề xung quanh tại Thư Tới Tháng (2017 - nay)",
     ],
     phone: "0123456789",
   },
   {
-    avatar:
-      "/people/project-leder-with-disabilities-looking-front-sitting-immobilized-wheelchair-business-office-room.jpg",
-    name: "Nguyễn Hải Nam",
-    role: "Chuyên gia Quản lý Căng thẳng & Sức khỏe Tâm lý",
+    avatar: "/people/nguyen-thi-thu-hien.jpg",
+    name: "Nguyễn Thị Thu Hiền",
+    role: "Thạc sĩ, Chuyên gia Tâm lý",
     experience: [
-      "Chuyên gia tư vấn kiểm soát căng thẳng trong gia đình",
-      "Đào tạo kỹ năng giao tiếp và giải quyết mâu thuẫn",
-      "Hơn 12 năm kinh nghiệm trong lĩnh vực trị liệu tâm lý",
+      "Chuyên gia tư vấn tâm lý tại Trung tâm Tư vấn - Trị liệu tâm lý Share",
+      "Một trong 15 thạc sĩ tâm lý lâm sàng đầu tiên trong trường trình hợp tác đào tạo Thạc sĩ Tâm lý Lâm sàng giữa Đại học Giáo Dục – Đại học Quốc gia Hà Nội và Đại học Vanderbilt Hoa Kỳ",
+      "Tốt nghiệp khoa Tâm lý, Đại Học Sư Phạm Hà Nội (1998)",
+      "Trên 15 năm kinh nghiệm tham vấn, trị liệu tâm lý",
+    ],
+    phone: "0123456789",
+  },
+  {
+    avatar: "/people/chu-thi-thanh-huong.jpg",
+    name: "Chử Thị Thanh Hương",
+    role: "Chuyên gia Tâm lý",
+    experience: [
+      "Các chương trình cho doanh nghiệp như Vingroup, Bitexco, FPT, Canon, BIDV, VMS, Agribank, sở nội vụ 23 tỉnh, AIA, Prudential...: “Giao tiếp ứng xử trong kinh doanh”, “Kỹ năng bán hàng và chăm sóc khách hàng”, “Quản lý cảm xúc”, “Quản lý stress” “Cân bằng cuộc sống và công việc”, “Nghệ thuật giao tiếp nơi công sở”, “Đàm phán và thương thuyết trong kinh doanh”....",
+      "Tham gia vào hoạt động đào tạo của các dự án cấp bộ, cấp ngành được Worldbank và ADB tài trợ với những chương trình: “Kỹ năng giao tiếp trong thực thi công vụ”, “Kỹ năng quản lý lãnh đạo”, “Kỹ năng quản lý công việc”, “Kỹ năng quản lý thời gian”, “Kỹ năng đàm phán thương lượng hiệu quả”...",
+      "Khách mời của các kênh truyền hình INFOTV, VITV, VTC10 với những chủ đề về đời sống gia đình và tình cảm cá nhân: “Nói lời yêu thương”, “Tình yêu của người lớn tuổi”, “Mẹ đơn thân có nên là một lựa chọn?”...",
+      "Tốt nghiệp Đại học Georgi Plekhanov tại Matscova, trường đại học đứng thứ tư toàn liên bang Xô viết (Liên xô cũ).",
+      "Là học trò ưu tú của nhà tâm lý giáo dục Fitzhugh Dodson, bác sĩ tâm lý nổi tiếng thế giới trong lĩnh vực tư vấn cải thiện, vun đắp các mối quan hệ.",
+    ],
+    phone: "0123456789",
+  },
+  {
+    avatar: "/people/nguyen-thi-luong.jpg",
+    name: "Nguyễn Thị Lương",
+    role: "Chuyên gia Tâm lý",
+    experience: [
+      "Chuyên gia tham vấn tâm lý, Trung tâm trị liệu, tham vấn tư vấn tâm lý MindCare (2020 - nay)",
+      "Tham vấn viên tâm lý, Tổ hợp Dự án Tâm lý - Giáo dục - Truyền thông PSYHUB (VECAB) (2019 - 2020)",
+      "Nhân viên nghiên cứu & phát triển, Công ty Cổ phần Công nghệ & Giáo dục WIKIED (2018)",
+      "Tham vấn (tư vấn) viên tâm lý, VOV Cửa sổ tình yêu (2017 - 2018)",
+      "Học viên Cao học Chuyên ngành Tâm lý Lâm sàng ứng dụng, Trường Đại học Khoa học Xã hội & Nhân văn, Đại học Quốc gia Hà Nội",
+    ],
+    phone: "0123456789",
+  },
+  {
+    avatar: "/people/pham-thi-my-nhung.jpg",
+    name: "Phạm Thị Mỹ Nhung",
+    role: "Thạc sĩ Tâm lý Giáo dục",
+    experience: [
+      "Trưởng ban đối ngoại và chăm sóc đối tác của dự án huấn luyện kỹ năng Sống thành công tại SunnyCare.",
+      "Cô có nhiều năm kinh nghiệm trong công tác tham vấn tâm lý cá nhân và gia đình dựa trên liệu pháp trị liệu hệ thống.",
+      "Cô thành thạo sử dụng các liệu pháp để tham vấn, trị liệu cho khách hàng như: Liệu pháp hành vi nhận thức, liệu pháp gia dình cấu trúc, liệu pháp hành vi cảm xúc để tham vấn trị liệu các lĩnh vực: Tâm lý xã hội; Tâm lý gia đình; Tâm lí trẻ em; Tâm lý trẻ vị thành niên; Mâu thuẫn trong tình yêu; Tiền hôn nhân; Hôn nhân gia đình.",
+    ],
+    phone: "0123456789",
+  },
+  {
+    avatar: "/people/le-thi-minh-hoa.jpg",
+    name: "Lê Thị Minh Hoa",
+    role: "Thạc sĩ, Chuyên gia Tâm lý",
+    experience: [
+      "Hiện là Chuyên gia Tâm lý tại Viện Tâm lý SunnyCare.",
+      "Giảng viên về Tư vấn tâm lý hôn nhân gia đình tại Unica (Hệ thống đào tạo trực tuyến)",
+      "Có nhiều năm kinh nghiệm trong công tác tham vấn tâm lý qua tổng đài 1088, tổng đài SUNNYCARE",
+      "Kinh nghiệm 18 năm tư vấn tâm lý tình yêu, hôn nhân gia đình của tổng đài 1088",
+      "Kinh nghiệm 14 năm dạy về kỹ năng sống, giao tiếp, các phương pháp nuôi dạy, giáo dục con cái.",
     ],
     phone: "0123456789",
   },
@@ -276,7 +327,7 @@ export const booksList = [
       "https://media.kenhtuyensinh.vn/images/cms/2021/01/khong-gia-dinh.jpg",
     title: "Không Gia Đình",
     author: "Hector Malot",
-    price: "120,000",
+    price: "Sách",
     hot: true,
   },
   {
@@ -284,7 +335,7 @@ export const booksList = [
       "https://media.kenhtuyensinh.vn/images/cms/2021/01/vo-cung-tan-nhan-vo-cung-yeu-thuong.jpg",
     title: "Vô cùng tàn nhẫn vô cùng yêu thương",
     author: "Sara",
-    price: "150,000",
+    price: "Sách",
     hot: true,
   },
   {
@@ -292,7 +343,7 @@ export const booksList = [
       "https://media.kenhtuyensinh.vn/images/cms/2021/01/ngoai-kia-dong-bao-long-me-binh-yen.gif",
     title: "Ngoài kia dông bão, lòng mẹ bình yên",
     author: "Cheon Myeong Kwan",
-    price: "180,000",
+    price: "Sách",
     hot: true,
   },
   {
@@ -300,7 +351,7 @@ export const booksList = [
       "https://media.kenhtuyensinh.vn/images/cms/2021/01/nguoi-me-so-0.jpg",
     title: "Người mẹ số 0",
     author: "Marjolijin Hof",
-    price: "130,000",
+    price: "Sách",
     hot: true,
   },
 ];

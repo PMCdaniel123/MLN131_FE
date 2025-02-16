@@ -155,7 +155,7 @@ function Blog1() {
               cần thiết để xây dựng gia đình hạnh phúc, bền vững trong bối cảnh
               hiện nay. Hiểu rõ những xu hướng này không chỉ giúp chúng ta có
               cái nhìn sâu sắc về xã hội, mà còn góp phần định hướng cho tương
-              lai của chính họ trong môi trường gia đình và cộng đồng.
+              lai của chính mình.
             </p>
           </div>
 
