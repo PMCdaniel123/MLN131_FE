@@ -12,15 +12,15 @@ function MainDebate({ idea, date }) {
         <img
           src="logo_tron.png"
           alt=""
-          className="w-16 h-16 object-cover rounded-full"
+          className="md:w-16 md:h-16 w-12 h-12 object-cover rounded-full"
         />
         <div className="flex flex-col">
           <p className="text-md font-semibold">Ẩn danh</p>
           <p className="text-sm text-gray-400">{date}</p>
         </div>
       </div>
-      <div className="ml-20">{idea}</div>
-      <div className="flex flex-row items-center justify-start gap-4 mt-4 ml-20">
+      <div className="md:ml-20">{idea}</div>
+      <div className="flex flex-row items-center justify-start gap-4 mt-4 md:ml-20">
         <span
           onClick={() => setLike(!like)}
           className={`cursor-pointer ${

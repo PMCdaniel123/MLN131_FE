@@ -14,9 +14,7 @@ function Book({ index, image, title, author, price, hot }) {
           className="w-full h-96 object-cover rounded-t-lg"
         />
         <div className="p-4 flex flex-col">
-          <h2 className="mb-2 font-bold text-gray-800 text-xl">
-            {title}
-          </h2>
+          <h2 className="mb-2 font-bold text-gray-800 text-xl">{title}</h2>
           <p className="text-gray-600 mb-1">{author}</p>
           <div className="flex items-center gap-2">
             <p className="text-lg font-bold text-green-700">{price}VND</p>

@@ -17,7 +17,7 @@ function HotArticles() {
             <img
               src="https://exe201.sirv.com/H%C3%B4n%20nh%C3%A2n%20gia%20%C4%91%C3%ACnh%20-20250213T151617Z-001/H%C3%B4n%20nh%C3%A2n%20gia%20%C4%91%C3%ACnh/IMG_6234.JPG"
               alt="Main Article"
-              className="w-full h-[450px] object-cover group-hover:scale-105 transition-transform duration-300 ease-linear"
+              className="w-full h-60 md:h-[450px] object-cover group-hover:scale-105 transition-transform duration-300 ease-linear"
             />
             <div className="absolute top-4 left-4 bg-yellow-500 text-white px-2 py-1 text-sm rounded">
               Hot
@@ -42,7 +42,7 @@ function HotArticles() {
               <img
                 src="https://exe201.sirv.com/Gia%20%C4%91%C3%ACnh%20h%E1%BA%A1t%20nh%C3%A2n-20250213T151616Z-001/%20Gia%20%C4%91%C3%ACnh%20h%E1%BA%A1t%20nh%C3%A2n/IMG_6243.JPG"
                 alt="Top Right Article"
-                className="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-300 ease-linear"
+                className="w-full h-60 md:h-40 object-cover group-hover:scale-105 transition-transform duration-300 ease-linear"
               />
               <div className="absolute top-4 left-4 bg-blue-500 text-white px-2 py-1 text-sm rounded">
                 Mới
@@ -63,7 +63,7 @@ function HotArticles() {
               <img
                 src="https://exe201.sirv.com/Gia%20%C4%91%C3%ACnh%20h%E1%BA%A1t%20nh%C3%A2n-20250213T151616Z-001/%20Gia%20%C4%91%C3%ACnh%20h%E1%BA%A1t%20nh%C3%A2n/IMG_6239.JPG"
                 alt="Bottom Right Article"
-                className="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-300 ease-linear"
+                className="w-full h-60 md:h-40 object-cover group-hover:scale-105 transition-transform duration-300 ease-linear"
               />
               <div className="absolute top-4 left-4 bg-green-500 text-white px-2 py-1 text-sm rounded">
                 Nhiều lượt truy cập

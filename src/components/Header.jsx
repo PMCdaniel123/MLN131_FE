@@ -7,6 +7,7 @@ function Header() {
   const [activeLink, setActiveLink] = useState(
     location.pathname.split("/")[1] || ""
   );
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleSetActive = (link) => {
     setActiveLink(link);
@@ -30,7 +31,14 @@ function Header() {
               navigate("/");
             }}
           />
-          <button className="lg:hidden block">Menu</button>
+
+          <button
+            className="lg:hidden block text-gray-300 focus:outline-none"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
+            {isMenuOpen ? "✖" : "☰"}
+          </button>
+
           <ul className="hidden lg:flex space-x-12 text-gray-300 text-lg">
             {navLinks.map((link) => (
               <li
@@ -57,6 +65,38 @@ function Header() {
             ))}
           </ul>
         </div>
+
+        {isMenuOpen && (
+          <div className="lg:hidden absolute top-full left-0 w-full bg-gray-800 p-4 transition-all duration-300">
+            <ul className="flex flex-col space-y-4 text-gray-300 text-lg">
+              {navLinks.map((link) => (
+                <li
+                  key={link.id}
+                  className="group py-4 pl-6 flex items-center justify-center font-semibold cursor-pointer"
+                >
+                  <span
+                    className={`mt-1 h-4 w-4 rounded-full bg-green-600 transition-all duration-300 group-hover:opacity-100 ${
+                      activeLink === link.id
+                        ? "opacity-100"
+                        : "opacity-0 group-hover:scale-100 scale-0"
+                    }`}
+                  ></span>
+                  <Link
+                    to={`/${link.id}`}
+                    className={`ml-4 ${
+                      activeLink === link.id ? "text-green-600 font-bold" : ""
+                    } hover:text-green-600 transition-colors duration-200`}
+                    onClick={() => {
+                      handleSetActive(link.id);
+                    }}
+                  >
+                    {link.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </nav>
     </div>
   );
