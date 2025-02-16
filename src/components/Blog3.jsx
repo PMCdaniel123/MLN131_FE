@@ -12,8 +12,7 @@ const post = {
     name: "Nguyễn Hải Nam",
     role: "Sinh viên",
 
-    imageUrl:
-      "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    imageUrl: "/people/nam.jpg",
   },
 };
 
@@ -23,12 +22,14 @@ function Blog3() {
       <div className="max-w-4xl mx-auto px-6 lg:px-8 py-16">
         <article>
           <header className="mb-8">
-            <h1 className="text-3xl md:text-4xl font-bold text-green-500">{post.title}</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-green-500">
+              {post.title}
+            </h1>
             <div className="mt-6 flex items-center gap-4">
               <img
                 alt={post.author.name}
                 src={post.author.imageUrl}
-                className="h-12 w-12 rounded-full"
+                className="h-12 w-12 object-cover rounded-full"
               />
               <div>
                 <p className="text-base font-medium text-black">

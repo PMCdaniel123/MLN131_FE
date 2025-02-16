@@ -368,8 +368,7 @@ export const posts = [
     author: {
       name: "Đặng Nam Bình",
       role: "Sinh viên",
-      imageUrl:
-        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      imageUrl: "/people/binh.jpg",
     },
   },
   {
@@ -383,8 +382,7 @@ export const posts = [
     author: {
       name: "Đặng Nam Bình",
       role: "Sinh viên",
-      imageUrl:
-        "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      imageUrl: "/people/binh.jpg",
     },
   },
   {
@@ -398,9 +396,7 @@ export const posts = [
     author: {
       name: "Nguyễn Hải Nam",
       role: "Sinh viên",
-
-      imageUrl:
-        "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      imageUrl: "/people/nam.jpg",
     },
   },
   {
@@ -414,9 +410,7 @@ export const posts = [
     author: {
       name: "Nguyễn Hải Nam",
       role: "Sinh viên",
-
-      imageUrl:
-        "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      imageUrl: "/people/nam.jpg",
     },
   },
   {
@@ -430,9 +424,7 @@ export const posts = [
     author: {
       name: "Phạm Mạnh Cường",
       role: "Sinh viên",
-
-      imageUrl:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      imageUrl: "/people/cuong.jpg",
     },
   },
 ];

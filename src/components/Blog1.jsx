@@ -10,8 +10,7 @@ const post = {
   author: {
     name: "Đặng Nam Bình",
     role: "Sinh viên",
-    imageUrl:
-      "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    imageUrl: "/people/binh.jpg",
   },
 };
 
@@ -28,7 +27,7 @@ function Blog1() {
               <img
                 alt={post.author.name}
                 src={post.author.imageUrl}
-                className="h-12 w-12 rounded-full"
+                className="h-12 w-12 object-cover rounded-full"
               />
               <div>
                 <p className="text-base font-medium text-black">
