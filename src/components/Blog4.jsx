@@ -13,7 +13,7 @@ const post = {
     role: "Sinh viên",
 
     imageUrl:
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "/people/nam.jpg",
   },
 };
 
@@ -28,7 +28,7 @@ function Blog4() {
               <img
                 alt={post.author.name}
                 src={post.author.imageUrl}
-                className="h-12 w-12 rounded-full"
+                className="h-12 w-12 object-cover rounded-full"
               />
               <div>
                 <p className="text-base font-medium text-black">
