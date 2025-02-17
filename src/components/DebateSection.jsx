@@ -1,10 +1,17 @@
 import { useState } from "react";
 import MainDebate from "./MainDebate";
 import { CirclePlus } from "lucide-react";
+import { nuclearData } from "../constants/constants";
 
 // eslint-disable-next-line react/prop-types
 function DebateSection({ title }) {
   const [isCreate, setIsCreate] = useState(false);
+  const [idea, setIdea] = useState("");
+
+  const handleUpload = () => {
+    nuclearData.push({ idea: idea, date: "17/02/2025" });
+    setIsCreate(false);
+  };
 
   return (
     <div className="mt-10">
@@ -25,28 +32,21 @@ function DebateSection({ title }) {
               rows={4}
               placeholder="Nội dung bài viết"
               className="w-full border px-4 py-2 rounded-md"
+              value={idea}
+              onChange={(e) => setIdea(e.target.value)}
             ></textarea>
             <button
               className="bg-green-700 text-white px-4 py-2 mt-4 rounded-md font-bold hover:bg-green-500"
-              onClick={() => setIsCreate(!isCreate)}
+              onClick={handleUpload}
             >
               Đăng
             </button>
           </div>
         )}
         <h2 className="text-2xl font-bold mb-4">Các bài viết tương tự</h2>
-        <MainDebate
-          idea={
-            "Một vài người tin rằng để thành đạt thì phải xa cha mẹ. Kiểu như được cái này thì phải mất cái kia. Còn tui, tui chọn cả hai. Vừa thành công vừa gần gũi cha mẹ. Thành công mà phải đánh đổi nhiều thứ thì không phải là thành công thực sự. Được ở cùng cha mẹ là diễm phúc và đặc ân, tiền không mua được."
-          }
-          date={"10/02/2025"}
-        />
-        <MainDebate
-          idea={
-            "Toàn những gia đình ko có điều kiện tài chính hoặc ko biết hoà hợp các thành viên trong gia đình mới phải sống riêng mà thôi. Sống riêng là xu hướng tất yếu vì đa số con người rất ích kỷ, ai cũng muốn hạnh phúc bản thân chứ ko vì người khác nên đó là bước đi lùi về mặt đạo đức chứ chả phải tiến bộ gì cả."
-          }
-          date={"10/02/2025"}
-        />
+        {nuclearData.map((data, index) => (
+          <MainDebate idea={data.idea} date={data.date} key={index} />
+        ))}
       </div>
     </div>
   );
